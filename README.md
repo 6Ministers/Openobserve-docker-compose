@@ -81,7 +81,10 @@ sudo docker-compose up -d
 
 `https://subdomain.your-domain.com`
 
-Ddtlbnt
+Вводим логин и пароль:
+
+* `EMAIL: "admin@domain.com"`
+* `PASSWORD: "password"`
 
 **Полезные команды**
 
