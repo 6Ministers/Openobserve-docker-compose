@@ -43,8 +43,8 @@ https://subdomain.your-domain.com:443 {
 ```
 
 Укажите ваш логин и пароль в `docker-compose.yml`
-*`ZO_ROOT_USER_EMAIL: "admin@domain.com"`
-*`ZO_ROOT_USER_PASSWORD: "password"`
+* `ZO_ROOT_USER_EMAIL: "admin@domain.com"`
+* `ZO_ROOT_USER_PASSWORD: "password"`
 
 ```
 services:
