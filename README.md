@@ -81,6 +81,8 @@ sudo docker-compose up -d
 
 `https://subdomain.your-domain.com`
 
+Ddtlbnt
+
 **Полезные команды**
 
 Запуск:
