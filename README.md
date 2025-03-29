@@ -24,9 +24,6 @@ https://subdomain.your-domain:443 {
 	file_server
 	
 }
-
-...	
-}
 ```
 
 Укажите ваш логин и пароль
@@ -56,7 +53,5 @@ services:
     ports:
       - "5080:5080"
     volumes:
-      - /data:/data
-volumes:
-  data:
+      - ./openobserve-data:/data
 ```
