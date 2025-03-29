@@ -18,8 +18,8 @@ services:
     image: public.ecr.aws/zinclabs/openobserve:latest
     restart: unless-stopped
     environment:
-      ZO_ROOT_USER_EMAIL: "admin@o-pautinka.site"
-      ZO_ROOT_USER_PASSWORD: "Sy1Ty%Z0ksAH158t"
+      ZO_ROOT_USER_EMAIL: "admin@domain.com"
+      ZO_ROOT_USER_PASSWORD: "password"
     ports:
       - "5080:5080"
     volumes:
