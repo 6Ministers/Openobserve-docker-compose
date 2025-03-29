@@ -1,9 +1,8 @@
 # Openobserve-docker-compose
 
 Укажите ваш логин и пароль
-
--      `ZO_ROOT_USER_EMAIL: "admin@domain.com"`
--      `ZO_ROOT_USER_PASSWORD: "password"`
+     `ZO_ROOT_USER_EMAIL: "admin@domain.com"`
+     `ZO_ROOT_USER_PASSWORD: "password"`
 
 ```
 services:
