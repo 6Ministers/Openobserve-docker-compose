@@ -75,7 +75,7 @@ services:
 
 Запуск:
 ```
-sudo docker-compose up -d
+docker-compose up -d
 ```
 Переходим по адресу вашего домена
 
@@ -103,17 +103,17 @@ https://github.com/openobserve/agents/discussions/11
 
 Запуск:
 ```
-sudo docker-compose up -d
+docker-compose up -d
 ```
 Перезапуск:
 ```
-sudo docker-compose restart
+docker-compose restart
 ```
 Остановка и стартр:
 ```
-sudo docker-compose down && sudo docker-compose up -d
+docker-compose down && sudo docker-compose up -d
 ```
 Остановка:
 ```
-sudo docker-compose down
+docker-compose down
 ```
