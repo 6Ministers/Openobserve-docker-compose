@@ -1,5 +1,16 @@
 # Openobserve-docker-compose
 
+Быстрая установка
+Перед установкой направьте на ip домен
+
+1. Требованя к серверу
+Минимум
+
+1 CPUs
+2 RAM
+10 Gb
+Ubuntu 24.04
+
 Установка docker
 ```
 curl -s https://raw.githubusercontent.com/6Ministers/Openobserve-docker-compose/master/setup.sh | sudo bash -s
