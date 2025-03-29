@@ -1,1 +1,29 @@
 # Openobserve-docker-compose
+
+```
+services:
+  caddy:
+    image: caddy:alpine
+    restart: unless-stopped
+    container_name: caddy
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile
+      - ./certs:/certs
+      - ./config:/config
+      - ./data:/data
+      - ./sites:/srv
+    network_mode: "host"
+
+  openobserve:
+    image: public.ecr.aws/zinclabs/openobserve:latest
+    restart: unless-stopped
+    environment:
+      ZO_ROOT_USER_EMAIL: "admin@o-pautinka.site"
+      ZO_ROOT_USER_PASSWORD: "Sy1Ty%Z0ksAH158t"
+    ports:
+      - "5080:5080"
+    volumes:
+      - /data:/data
+volumes:
+  data:
+```
