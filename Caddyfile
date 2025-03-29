@@ -1,5 +1,5 @@
 https://subdomain.your-domain.com:443 {
-    reverse_proxy 127.0.0.1:5080
+    reverse_proxy :5080
 #	tls admin@example.org
 	encode zstd gzip
 #        file_server
