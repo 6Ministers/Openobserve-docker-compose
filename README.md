@@ -91,7 +91,13 @@ sudo docker-compose up -d
 
 ## 5. Подключаем чтение логов удаленного сервер 
 
+Инструкции по настройке агента сборов лога находятся в разделе:
 
+![image](https://github.com/user-attachments/assets/8eaa7339-27e8-4322-8f67-075555c9628d)
+
+Обсуждение в техподдержке:
+
+https://github.com/openobserve/agents/discussions/11
 
 ## Полезные команды
 
