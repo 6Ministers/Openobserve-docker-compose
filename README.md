@@ -3,7 +3,7 @@
 Быстрая установка
 Перед установкой направьте на ip домен
 
-**1. Требованя к серверу**
+## 1. Требованя к серверу
 
 Минимум
 
@@ -13,7 +13,7 @@
 
 Ubuntu 24.04
 
-**2. Подготовка сервера**
+## 2. Подготовка сервера
 
 Установка docker
 ```
@@ -24,7 +24,7 @@ curl -s https://raw.githubusercontent.com/6Ministers/Openobserve-docker-compose/
 ```
 curl -s https://raw.githubusercontent.com/6Ministers/Openobserve-docker-compose/master/download.sh | sudo bash -s openobserve
 ```
-**3. Настройка запуска**
+## 3. Настройка запуска
 
 Переходим в каталог
 ```
@@ -71,7 +71,7 @@ services:
     volumes:
       - ./openobserve-data:/data
 ```
-**4. Запуск**
+## 4. Запуск
 
 Запуск:
 ```
@@ -86,7 +86,7 @@ sudo docker-compose up -d
 * `EMAIL: "admin@domain.com"`
 * `PASSWORD: "password"`
 
-**Полезные команды**
+## Полезные команды
 
 Запуск:
 ```
