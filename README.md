@@ -86,7 +86,12 @@ sudo docker-compose up -d
 * `EMAIL: "admin@domain.com"`
 * `PASSWORD: "password"`
 
-Подключаем чтение логов удаленного сервер 
+  ![image](https://github.com/user-attachments/assets/edacc175-3a23-46b2-8d7e-52f7b86039bd)
+
+
+## 5. Подключаем чтение логов удаленного сервер 
+
+
 
 ## Полезные команды
 
