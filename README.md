@@ -26,7 +26,7 @@ curl -s https://raw.githubusercontent.com/6Ministers/Openobserve-docker-compose/
 ```
 cd openobserve
 ```
-Редактируем настройки caddy
+Редактируем настройки caddyfile
 
 ```
 https://subdomain.your-domain:443 {
@@ -38,7 +38,7 @@ https://subdomain.your-domain:443 {
 }
 ```
 
-Укажите ваш логин и пароль
+Укажите ваш логин и пароль в docker-compose
      `ZO_ROOT_USER_EMAIL: "admin@domain.com"`
      `ZO_ROOT_USER_PASSWORD: "password"`
 
