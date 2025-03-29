@@ -1,5 +1,10 @@
 # Openobserve-docker-compose
 
+
+```
+curl -s https://raw.githubusercontent.com/6Ministers/Openobserve-docker-compose/master/setup.sh | sudo bash -s
+```
+
 Укажите ваш логин и пароль
      `ZO_ROOT_USER_EMAIL: "admin@domain.com"`
      `ZO_ROOT_USER_PASSWORD: "password"`
